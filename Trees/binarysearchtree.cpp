@@ -121,7 +121,7 @@ Node* deleteinbst(Node* root, int del)
     
     if(del < root->data)
     {
-        root->left= deleteinbst(root->left, del);
+        root->left=deleteinbst(root->left, del);
     }
     else if(del > root->data)
     {

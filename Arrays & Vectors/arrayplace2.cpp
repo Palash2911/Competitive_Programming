@@ -26,7 +26,7 @@ int main()
 //       }
 //   }
 //   cout<<maxsum<<endl;
-    // Q8. (Important) Print all subarrays in an array
+// Q8. (Important) Print all subarrays in an array
 //      int n;
 //     cin >> n;
 //     int a[n];

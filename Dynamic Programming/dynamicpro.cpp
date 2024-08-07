@@ -14,20 +14,20 @@ int val[N], wt[N];
 
 int fib(int n)
 {
-    if (n==1)
-    {
-      return 0;
-    }
-    if (n == 2)
-    {
-      return 1;
-    }
-    if (dp[n] != -1)
-    {
-      return dp[n];
-    }
-    dp[n] = fib(n - 1) + fib(n - 2);
+  if (n <= 1)
+  {
+    return 0;
+  }
+  if (n == 2)
+  {
+    return 1;
+  }
+  if (dp[n] != -1)
+  {
     return dp[n];
+  }
+  dp[n] = fib(n - 1) + fib(n - 2);
+  return dp[n];
 }
 
 int minsq(int n)
@@ -102,11 +102,11 @@ int main()
 {
 
   vector<vector<double>> ch;
-  floop(i,0,100)
+  floop(i, 0, 100)
   {
-    floop(j,0,100)
+    floop(j, 0, 100)
     {
-        ch[i][j]=(i+1)/2;
+      ch[i][j] = (i + 1) / 2;
     }
   }
   // Q1. Fibonacci Number

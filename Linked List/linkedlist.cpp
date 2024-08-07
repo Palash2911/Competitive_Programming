@@ -102,7 +102,7 @@ node* reversell(node* &head)
         curr=nextptr;
     }
 
-return prevptr;
+    return prevptr;
 }
 
 void makecycle(node* &head, int pos)
@@ -259,16 +259,16 @@ int main()
 //   insertattail(head,1);
 //   insertattail(head,2);
 //   insertattail(head,3);
-//     display(head);
+//   display(head);
 //   insertathead(head,4);
 //   display(head);
 
 // cout<<search(head, 4)<<endl;
 // cout<<search(head, 5)<<endl;
 
-    // deletion(head,3);
-    // deleteathead(head);
-    // display(head);
+// deletion(head,3);
+// deleteathead(head);
+// display(head);
 
 // Q1. Detect and create a cycle in linkedlist. - hare and tortoise algo /or/ Floyds algo -- very important hai
 //   node* head=NULL;

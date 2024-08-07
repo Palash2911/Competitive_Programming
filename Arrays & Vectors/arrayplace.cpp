@@ -59,7 +59,7 @@ int main()
     //     mx=max(mx, a[i]);
     // }
     // cout<<ans<<endl;
-    // Q3. LOngest arithmatic subarray very important question
+    // Q3. Longest arithmatic subarray very important question
     int n;
     cin >> n;
     int a[n];
